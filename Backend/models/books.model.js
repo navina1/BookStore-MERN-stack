@@ -5,7 +5,8 @@ module.exports = mongoose => {
         title: { type: String, required: true },
         author: String,
         description: String,
-        published: Boolean
+        published: Boolean,
+        genre:String,
     },
         { timestamps: true }
     );

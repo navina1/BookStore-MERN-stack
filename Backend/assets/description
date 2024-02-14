@@ -1,0 +1,92 @@
+1.Book Schema:---completed-merged
+    Title
+    Author(s)
+    Published
+    Genre
+    //Price
+    //Quantity Available
+    Description
+
+2.Author Schema:
+    Name
+    Biography
+    Nationality
+    List of Books Written (References to Book documents)
+
+
+4.Genre Schema:
+    Name
+    Description
+    List of Books in this Genre (References to Book documents)
+
+5.Customer Schema:
+    Name
+    Email
+    List of Orders (References to Order documents)
+
+6.Order Schema:
+    Customer (Reference to Customer document)
+    List of Books Purchased (Array of subdocuments containing book details such as title, quantity, and price)
+    Total Price
+    Order Date
+
+7.Review Schema:
+    Book (Reference to Book document)
+    Customer (Reference to Customer document)
+    Rating
+    Review Text
+    Review Date
+
+
+------------------Operations----------------------------
+1.Book Schema:
+
+Create a new book
+Retrieve details of a book by ISBN or title
+Update book details
+Delete a book
+Search for books by author, genre, or publication date
+
+-------------------------------------------------------------------------
+2.Author Schema:
+
+Create a new author
+Retrieve details of an author by name or nationality
+Update author details
+Delete an author
+List all books written by a specific author
+
+------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------
+4.Genre Schema:
+
+Create a new genre
+Retrieve details of a genre by name
+Update genre details
+Delete a genre
+List all books in a specific genre
+-----------------------------------------------------------------------------------
+5.Customer Schema:
+
+Create a new customer
+Retrieve details of a customer by email or name
+Update customer details
+Delete a customer
+List all orders placed by a specific customer
+-------------------------------------------------------------------------
+6.Order Schema:
+
+Place a new order
+Retrieve details of an order by order ID or customer
+Update order details (e.g., add/remove items, update quantity)
+Delete an order
+List all orders within a specific date range
+-------------------------------------------------------------------------------
+7.Review Schema:
+
+Add a new review for a book
+Retrieve reviews for a specific book
+Update review details (e.g., rating, review text)
+Delete a review
+List all reviews written by a specific customer
