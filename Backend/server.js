@@ -21,6 +21,6 @@ db.mongoose
         return res.status(234).send("Welcome to BookStore Application")
     })
     
-    //require("./Routes/book.routes")(app);
+    require("./routes/books.routes")(app);
     const PORT =8080;
     app.listen(PORT, () => { console.log('Server is running on port 8080') });
