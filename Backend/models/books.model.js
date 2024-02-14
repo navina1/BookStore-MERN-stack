@@ -6,7 +6,11 @@ module.exports = mongoose => {
         author: String,
         description: String,
         published: Boolean,
-        genre:String,
+        genre: {
+            type: mongoose.Schema.Types.ObjectId,
+            ref: 'Genre',
+            required: true
+          },
     },
         { timestamps: true }
     );

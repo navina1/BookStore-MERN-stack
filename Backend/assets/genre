@@ -1,0 +1,29 @@
+// Example 1
+{
+  "title": "Fantasy",
+  "description": "Books set in imaginary worlds with magical elements."
+}
+
+// Example 2
+{
+  "title": "Mystery",
+  "description": "Books that involve solving a crime or puzzle."
+}
+
+// Example 3
+{
+  "title": "Romance",
+  "description": "Books focusing on romantic relationships and emotions."
+}
+
+// Example 4
+{
+  "title": "Thriller",
+  "description": "Books that keep readers on the edge of their seats with suspenseful plots."
+}
+
+// Example 5
+{
+  "title": "Horror",
+  "description": "Books intended to scare or unsettle readers with frightening elements."
+}
