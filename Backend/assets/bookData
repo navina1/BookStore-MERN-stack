@@ -1,0 +1,63 @@
+{
+    title: "The Great Gatsby",
+    author: "F. Scott Fitzgerald",
+    description: "A tragic love story set in the roaring twenties.",
+    published: true,
+    genre: "603efb0d1c9d440000000001" // Assuming this is the ID of the 'Romance' genre
+  },
+  {
+    title: "To Kill a Mockingbird",
+    author: "Harper Lee",
+    description: "A story of racial injustice and moral growth in the American South.",
+    published: true,
+    genre: "603efb0d1c9d440000000002" // Assuming this is the ID of the 'Drama' genre
+  },
+  {
+    title: "1984",
+    author: "George Orwell",
+    description: "A dystopian novel set in a totalitarian regime.",
+    published: true,
+    genre: "603efb0d1c9d440000000003" // Assuming this is the ID of the 'Science Fiction' genre
+  }
+  {
+    title: "Pride and Prejudice",
+    author: "Jane Austen",
+    description: "A classic novel about love, manners, and marriage in 19th-century England.",
+    published: true,
+    genre: "603efb0d1c9d440000000004" // Assuming this is the ID of the 'Romance' genre
+  },
+  {
+    title: "The Catcher in the Rye",
+    author: "J.D. Salinger",
+    description: "A coming-of-age novel that follows a teenager's experiences in New York City.",
+    published: true,
+    genre: "603efb0d1c9d440000000005" // Assuming this is the ID of the 'Coming-of-age' genre
+  },
+  {
+    title: "Harry Potter and the Philosopher's Stone",
+    author: "J.K. Rowling",
+    description: "The first book in the Harry Potter series, which follows a young wizard's journey at Hogwarts School of Witchcraft and Wizardry.",
+    published: true,
+    genre: "603efb0d1c9d440000000006" // Assuming this is the ID of the 'Fantasy' genre
+  },
+  {
+    title: "The Hobbit",
+    author: "J.R.R. Tolkien",
+    description: "A fantasy novel about the adventures of Bilbo Baggins, who embarks on a quest to reclaim a treasure guarded by a dragon.",
+    published: true,
+    genre: "603efb0d1c9d440000000006" // Assuming this is the ID of the 'Fantasy' genre
+  },
+  {
+    title: "The Lord of the Rings",
+    author: "J.R.R. Tolkien",
+    description: "An epic high-fantasy novel that follows the quest to destroy the One Ring.",
+    published: true,
+    genre: "603efb0d1c9d440000000006" // Assuming this is the ID of the 'Fantasy' genre
+  },
+  {
+    title: "The Da Vinci Code",
+    author: "Dan Brown",
+    description: "A mystery thriller that follows a symbologist and a cryptologist as they unravel a secret society's conspiracy.",
+    published: true,
+    genre: "603efb0d1c9d440000000007" // Assuming this is the ID of the 'Mystery' genre
+  }
