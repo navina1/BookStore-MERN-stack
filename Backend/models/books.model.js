@@ -11,6 +11,8 @@ module.exports = mongoose => {
             ref: 'Genre',
             required: true
           }],
+        quantity: Number, // Quantity of books in the store (if it's a physical book)
+        price: Number      // Price of one copy of the book (if it's digital, this will be
     },
         { timestamps: true }
     );
