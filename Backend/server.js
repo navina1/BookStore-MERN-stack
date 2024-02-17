@@ -23,5 +23,8 @@ db.mongoose
     
     require("./routes/books.routes")(app);
     require("./routes/genre.routes")(app);
+    require("./routes/authors.routes")(app);
+    require("./routes/users.routes")(app);
+    require("./routes/purchase_history.routes")(app);
     const PORT =8080;
     app.listen(PORT, () => { console.log('Server is running on port 8080') });
